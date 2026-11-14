@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Horas Médicas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Clínica Salud Plus</h1>
+        <h2>Reserva tu hora médica</h2>
+        <form>
+            <label>Nombre completo:</label>
+            <input type="text" placeholder="Ej: Juan Pérez" required>
+            <label>RUT:</label>
+            <input type="text" placeholder="Ej: 12.345.678-9" required>
+            <label>Especialidad:</label>
+            <select>
+                <option>Medicina General</option>
+                <option>Pediatría</option>
+                <option>Cardiología</option>
+            </select>
+            <label>Fecha de atención:</label>
+            <input type="date" required>
+            <button type="submit">Reservar Hora</button>
+        </form>
+        <div class="status">
+        </div>
+    </div>
+</body>
+</html>
