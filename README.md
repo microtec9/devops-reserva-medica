@@ -1,19 +1,13 @@
-Proyecto DevOps - Reserva de Horas Médicas
-Este proyecto es para la evaluación de DevOps,  consiste en una página web estática con un formulario para reservar horas médicas, la cual se levanta usando Docker.
+Proyecto DevOps - Reserva de Horas
+Hola, este es el proyecto para la tarea de DevOps. Es una página web simple con un formulario para reservar horas médicas y se levanta usando Docker.
 
-¿Cómo ejecutarlo?
-Tener instalado y abierto Docker Desktop.
+Para ejecutarlo:
+Tener abierto Docker Desktop.
 
-Abrir la terminal en esta carpeta.
+Abrir la terminal en esta carpeta y ejecutar docker compose up -d.
 
-Ejecutar el comando:
-docker compose up -d
+Entrar a http://localhost:8080 en el navegador.
 
-Abrir el navegador y entrar a: http://localhost:8080
-
-¿Cómo saber si funciona?
-Puedes revisar el estado del contenedor con:
-docker ps
-O revisar los logs con:
-docker logs salud-web
+Para ver si funciona:
+Pueden usar docker ps para ver si el contenedor está corriendo, o docker logs salud-web para ver los registros.
 
